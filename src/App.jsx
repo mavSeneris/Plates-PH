@@ -36,7 +36,6 @@ const App = () => {
   };
 
   function isValidPlateNo(str) {
-    // Check if the string length is between 6 and 7
     if (str.length > 7) return false;
     // Define a function to check if a character is a letter
     // and a function to check if a character is a digit
@@ -78,7 +77,7 @@ const App = () => {
         const validCarPlate = str.split("");
         const lastCharIndex = validCarPlate.length - 1;
         const secondLastCharIndex = validCarPlate.length - 2;
-        const firstChar = validCarPlate[1];
+        const firstChar = validCarPlate[0];
         const secondLastChar = validCarPlate[secondLastCharIndex];
         const lastChar = validCarPlate[lastCharIndex];
         if (
