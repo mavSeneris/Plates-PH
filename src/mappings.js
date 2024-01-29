@@ -41,14 +41,14 @@ export const monthMapping = {
 };
 
 export const weekMapping = {
-  1: 1,
-  2: 1,
-  3: 1,
-  4: 2,
-  5: 2,
-  6: 2,
-  7: 3,
-  8: 3,
-  9: 4,
-  0: 4,
+  1: "1st",
+  2: "1st",
+  3: "1st",
+  4: "2nd",
+  5: "2nd",
+  6: "2nd",
+  7: "3rd",
+  8: "3rd",
+  9: "4th",
+  0: "4th",
 };
